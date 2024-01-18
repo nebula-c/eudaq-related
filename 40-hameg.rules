@@ -1,0 +1,5 @@
+SUBSYSTEM=="tty", ACTION=="add", ATTRS{idVendor}=="0aad", ATTRS{idProduct}=="0117", ATTRS{serial}=="VCP106747", SYMLINK+="hmp4040", MODE="0666"
+SUBSYSTEM=="tty", ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="ed72", ATTRS{serial}=="023822203", SYMLINK+="hmp4040_2", MODE="0666"
+SUBSYSTEM=="tty", ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="ed72", ATTRS{serial}=="100030280926", SYMLINK+="hmp4040_3", MODE="0666"
+SUBSYSTEM=="tty", ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="ed72", ATTRS{serial}=="021269414", SYMLINK+="hmp2030", MODE="0666"
+SUBSYSTEM=="usb", ACTION=="add", ATTRS{idVendor}=="0aad", ATTRS{idProduct}=="0197", ATTRS{serial}=="5601.4007k03-100949", SYMLINK+="ngp824", MODE="0666"
