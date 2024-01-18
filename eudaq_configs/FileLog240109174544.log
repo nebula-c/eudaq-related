@@ -1,0 +1,107 @@
+
+*** LogCollector started at 2024-01-09 17:45:45.354 ***
+[0m[1m[2024-01-09 17:45:45.353] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for log
+[0m[1m[2024-01-09 17:45:45.353] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for dc
+[0m[1m[2024-01-09 17:45:45.354] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_0
+[0m[1m[2024-01-09 17:45:45.357] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_1
+[0m[1m[2024-01-09 17:45:45.360] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_2
+[0m[1m[2024-01-09 17:45:45.360] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for POWER_0
+[0m[1m[2024-01-09 17:45:45.360] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for POWER_1
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_2">
+        <plane>2</plane>
+        <serial>DAQ-0009010E08933225</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_1">
+        <plane>1</plane>
+        <serial>DAQ-0009010E08931906</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_0">
+        <plane>0</plane>
+        <serial>DAQ-0009010E08933325</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [DataCollector.dc ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="DataCollector.dc">
+        <dataproducers>ALPIDE_plane_0,ALPIDE_plane_1,ALPIDE_plane_2</dataproducers>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.POWER_0">
+        <path>/dev/hmp4040_3</path>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-1BENT-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.POWER_1">
+        <path>/dev/hmp4040</path>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-09 17:45:45.402] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is to be initialised...
+[0m[1m[2024-01-09 17:45:45.402] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is to be initialised...
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is to be initialised...
+[0m[1m[2024-01-09 17:45:45.402] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is to be initialised...
+[0m[1m[2024-01-09 17:45:45.402] [0m[32;1m(INFO)[0m [DataCollector.dc ]TCPServer:: Listening on port 36303
+[0m[1m[2024-01-09 17:45:45.401] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is to be initialised...
+[0m[1m[2024-01-09 17:45:45.402] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is to be initialised...
+[0m[1m[2024-01-09 17:45:45.418] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is initialised.
+[0m[1m[2024-01-09 17:45:45.459] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is initialised.
+[0m[1m[2024-01-09 17:45:45.603] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is initialised.
+[0m[1m[2024-01-09 17:45:45.629] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is initialised.
+[0m[1m[2024-01-09 17:45:45.632] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is initialised.
+[0m[1m[2024-01-09 17:45:46.526] [0m[31;1m(ERROR)[0m [Producer.ALPIDE_plane_0 ]DoInitialise: [Errno 110] Operation timed out
+[0m[1m[2024-01-09 17:45:46.530] [0m[31;1m(ERROR)[0m [RunControl.RC-TUI ]ALPIDE_plane_0 in ERROR state
+[0m[1m[2024-01-09 17:45:46.530] [0m[31;1m(ERROR)[0m [RunControl.RC-TUI ]One or more conections in ERROR state.
+[0m[1m[2024-01-09 17:45:46.534] [0m[31;1m(ERROR)[0m [RunControl.RC-TUI ]Traceback (most recent call last):
+  File "/home/next/ITS3/eudaq/user/ITS3/python/ITS3RunControl.py", line 307, in userlogic_wrapper
+    self.userlogic_runner_()
+  File "/home/next/ITS3/eudaq/user/ITS3/python/ITS3RunControl.py", line 321, in userlogic_runner_
+    self.wait_replicas(pyeudaq.Status.STATE_UNCONF)
+  File "/home/next/ITS3/eudaq/user/ITS3/python/ITS3RunControl.py", line 303, in wait_replicas
+    self.check_status()
+  File "/home/next/ITS3/eudaq/user/ITS3/python/ITS3RunControl.py", line 281, in check_status
+    raise RuntimeError("One or more conections in ERROR state.")
+RuntimeError: One or more conections in ERROR state.
+

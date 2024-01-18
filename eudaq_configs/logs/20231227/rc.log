@@ -1,0 +1,102 @@
+[0m[1m[2023-12-27 14:58:26.677] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:58:26.778] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:58:26.778] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:58:26.778] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:58:26.778] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:58:26.778] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.766] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.766] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.766] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.772] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.772] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.772] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:27.772] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:28.054] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:28.191] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523145825
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:48.763] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523145825
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:58:54.720] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command
+[0m[1m[2023-12-27 14:59:22.942] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:59:23.043] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:59:23.043] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:59:23.043] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:59:23.043] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 14:59:23.043] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.031] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.031] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.031] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.031] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.031] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.036] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:24.036] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:25.098] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:25.234] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523145921
+[RunControl RC-TUI] [0m[1m[2023-12-27 14:59:59.029] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523145921
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:00:03.262] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command
+[0m[1m[2023-12-27 15:04:55.749] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:04:55.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:04:55.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:04:55.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:04:55.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:04:55.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.834] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.834] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.834] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.840] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.840] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.840] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:56.840] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:57.124] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:04:57.257] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523150454
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:01.811] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523150454
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:07.284] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command
+[0m[1m[2023-12-27 15:05:27.763] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:05:27.863] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:05:27.863] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:05:27.863] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:05:27.863] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:05:27.863] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.849] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.853] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.856] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:28.856] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:29.139] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:29.278] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523150526
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:34.850] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523150526
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:05:39.303] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command
+[0m[1m[2023-12-27 15:06:56.167] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:06:56.268] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:06:56.268] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:06:56.268] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:06:56.268] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:06:56.268] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.248] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.248] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.248] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.251] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.254] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.254] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:57.254] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:58.321] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:06:58.458] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523150655
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:10:49.261] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523150655
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:10:56.123] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command
+[0m[1m[2023-12-27 15:11:12.423] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:11:12.524] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:11:12.524] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:11:12.524] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:11:12.524] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[0m[1m[2023-12-27 15:11:12.525] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mConnect:    
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.507] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.507] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for log
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.507] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for dc
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.508] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.514] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_1
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.514] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for ALPIDE_plane_2
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:13.514] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Initialise command for POWER_0
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:14.577] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Configure command
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:11:14.704] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StartRun command for RUN #523151111
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:18:14.529] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing StopRun command for RUN #523151111
+[RunControl RC-TUI] [0m[1m[2023-12-27 15:18:21.905] [0m[32;1m(INFO)[0m[31;1m [unknown sender][0mProcessing Terminate command

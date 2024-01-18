@@ -1,0 +1,559 @@
+
+*** LogCollector started at 2024-01-05 10:43:23.362 ***
+[0m[1m[2024-01-05 10:43:23.361] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for log
+[0m[1m[2024-01-05 10:43:23.361] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for dc
+[0m[1m[2024-01-05 10:43:23.364] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_0
+[0m[1m[2024-01-05 10:43:23.367] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_1
+[0m[1m[2024-01-05 10:43:23.367] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_2
+[0m[1m[2024-01-05 10:43:23.367] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for POWER_0
+[0m[1m[2024-01-05 10:43:23.367] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for POWER_1
+[0m[1m[2024-01-05 10:43:23.368] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for APTS_0
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [DataCollector.dc ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="DataCollector.dc">
+        <dataproducers>APTS_0,ALPIDE_plane_0,ALPIDE_plane_1,ALPIDE_plnae_2</dataproducers>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_1">
+        <plane>2</plane>
+        <serial>DAQ-0009010E08931906</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_0">
+        <plane>0</plane>
+        <serial>DAQ-0009010E08933325</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.POWER_1">
+        <path>/dev/hmp2030</path>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.APTS_0">
+        <#triggermode>replica</#triggermode>
+        <plane>1</plane>
+        <proximity>APTS-025</proximity>
+        <serial>DAQ-0009010E08932125</serial>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_2">
+        <plane>3</plane>
+        <serial>DAQ-0009010E08933225</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-3ALPIDE-1APTS.ini</Name>
+      </Section>
+      <Section title="Producer.POWER_0">
+        <path>/dev/hmp4040_3</path>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.423] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is initialised.
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is to be initialised...
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [DataCollector.dc ]TCPServer:: Listening on port 32805
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Producer.APTS_0 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.408] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Initialising MLR1 DAQ Board
+[0m[1m[2024-01-05 10:43:23.411] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]v1.10.2 - /home/next/.local/lib/python3.10/site-packages/mlr1daqboard is not a git repository but an installation directory. Git hash at installation: f39ffae61a5ded937a877f938b665ea40cb8dcd9
+[0m[1m[2024-01-05 10:43:23.414] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]File /home/next/.local/lib/python3.10/site-packages/mlr1daqboard/mlr1daqboard.py installed in /home/next/.local/lib/python3.10/site-packages/mlr1daqboard v1.10.2:
+Created:  2023-08-11 08:02:04.290911 UTC
+Accessed: 2024-01-04 01:57:25.289000 UTC
+Modified: 2023-08-11 08:02:04.290911 UTC
+Size:     30355
+git diff at installation:
+[0m[1m[2024-01-05 10:43:23.414] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Loaded DAC calibration from /home/next/.local/lib/python3.10/site-packages/mlr1daqboard/calibration/APTS-025.json: {
+    "IDAC": {
+        "CE_COL_AP_IBIASN": [
+            0.0189,
+            1.79,
+            670
+        ],
+        "CE_MAT_AP_IBIAS4SF_DP_IBIASF": [
+            0.37996,
+            50.38,
+            10000
+        ],
+        "CE_PMOS_AP_DP_IRESET": [
+            3.2e-05,
+            0.0,
+            2.0
+        ],
+        "AP_IBIASP_DP_IDB": [
+            0.0158,
+            1.14,
+            450
+        ],
+        "AP_IBIAS3_DP_IBIAS": [
+            0.1186,
+            3.79,
+            1500
+        ]
+    },
+    "VDAC": {
+        "AP_SEL0": [
+            0.03804,
+            4.71,
+            1200
+        ],
+        "AP_SEL1": [
+            0.03806,
+            0.1,
+            1200
+        ],
+        "AP_VRESET": [
+            0.03809,
+            3.6,
+            1200
+        ],
+        "CE_VOFFSET_AP_DP_VH": [
+            0.03808,
+            3.96,
+            1200
+        ],
+        "AP_VCASP_MUX0_DP_VCASB": [
+            0.03805,
+            1.61,
+            1200
+        ],
+        "AP_VCASN_MUX1_DP_VCASN": [
+            0.03807,
+            3.06,
+            1200
+        ]
+    }
+}
+[0m[1m[2024-01-05 10:43:23.424] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Using DAQ board with serial number DAQ-0009010E08932125
+[0m[1m[2024-01-05 10:43:23.407] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is to be initialised...
+[0m[1m[2024-01-05 10:43:23.423] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is initialised.
+[0m[1m[2024-01-05 10:43:23.608] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is initialised.
+[0m[1m[2024-01-05 10:43:23.628] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is initialised.
+[0m[1m[2024-01-05 10:43:23.629] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is initialised.
+[0m[1m[2024-01-05 10:43:23.631] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is initialised.
+[0m[1m[2024-01-05 10:43:23.727] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1602 returned 0000000016737e10
+[0m[1m[2024-01-05 10:43:23.727] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Firmware version: 0x107E7316
+[0m[1m[2024-01-05 10:43:23.727] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1600 returned 00000000fe000000
+[0m[1m[2024-01-05 10:43:23.728] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Producer.APTS_0 is initialised.
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Configure command
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [DataCollector.dc ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="DataCollector.dc">
+        <#EUDAQ_DATACOL_SEND_MONITOR_FRACTION>10</#EUDAQ_DATACOL_SEND_MONITOR_FRACTION>
+        <#EUDAQ_FW_PATTERN>/dev/null/run$6R_$12D$X</#EUDAQ_FW_PATTERN>
+        <#EUDAQ_MN>mon</#EUDAQ_MN>
+        <EUDAQ_FW>native</EUDAQ_FW>
+        <EUDAQ_FW_PATTERN>/home/next/ITS3/eudaq/data/20240105/run$6R_$12D$X</EUDAQ_FW_PATTERN>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is to be configured...
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_1">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>2</EUDAQ_ID>
+        <ITHR>60</ITHR>
+        <STROBE_LENGTH>800</STROBE_LENGTH>
+        <VCASN>106</VCASN>
+        <VCASN2>118</VCASN2>
+        <VCLIP>60</VCLIP>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is to be configured...
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_0">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>0</EUDAQ_ID>
+        <ITHR>60</ITHR>
+        <STROBE_LENGTH>800</STROBE_LENGTH>
+        <VCASN>106</VCASN>
+        <VCASN2>118</VCASN2>
+        <VCLIP>60</VCLIP>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is to be configured...
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.POWER_1">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.APTS_0">
+        <#trg_thr>71</#trg_thr>
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>1</EUDAQ_ID>
+        <trg_type>0</trg_type>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_2">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>3</EUDAQ_ID>
+        <ITHR>60</ITHR>
+        <STROBE_LENGTH>800</STROBE_LENGTH>
+        <VCASN>106</VCASN>
+        <VCASN2>118</VCASN2>
+        <VCLIP>60</VCLIP>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is to be configured...
+[0m[1m[2024-01-05 10:43:23.756] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:32805</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-3ALPIDE-1APTS.conf</Name>
+      </Section>
+      <Section title="Producer.POWER_0">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+      </Section>
+    </Configuration>
+
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is configured.
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is to be configured...
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]Producer.POWER_1 is configured.
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Producer.APTS_0 is to be configured...
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is to be configured...
+[0m[1m[2024-01-05 10:43:23.757] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is configured.
+[0m[1m[2024-01-05 10:43:23.757] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0300 0x00000000 returned 0100000000030000
+[0m[1m[2024-01-05 10:43:23.758] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.758] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Powering ON the chip with default DAC settings.
+[0m[1m[2024-01-05 10:43:23.758] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.758] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1104 returned 0000000002300000
+[0m[1m[2024-01-05 10:43:23.759] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.759] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Currents before Proximity ON: Ia = 0.04 mA, Id = 0.06 mA, Ib = 0.00 mA
+[0m[1m[2024-01-05 10:43:23.759] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0e32 0x00000001 returned 01000000320e0000
+[0m[1m[2024-01-05 10:43:23.759] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0e33 0x00000001 returned 01000000330e0000
+[0m[1m[2024-01-05 10:43:23.760] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0e12 0x00000001 returned 01000000120e0000
+[0m[1m[2024-01-05 10:43:23.761] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0401 0x08000001 returned 0100000001040000
+[0m[1m[2024-01-05 10:43:23.761] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x08000001 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.764] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.764] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1104 returned 0000000002b00000
+[0m[1m[2024-01-05 10:43:23.764] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.764] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Currents after Proximity ON: Ia = 0.04 mA, Id = 0.06 mA, Ib = 0.00 mA
+[0m[1m[2024-01-05 10:43:23.764] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Setting DACs for APTS-SF.
+[0m[1m[2024-01-05 10:43:23.764] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_COL_AP_IBIASN to 19.991 uA.
+[0m[1m[2024-01-05 10:43:23.764] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_COL_AP_IBIASN to 963
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0401 0x03303c30 returned 0100000001040000
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_MAT_AP_IBIAS4SF_DP_IBIASF to 149.930 uA.
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_MAT_AP_IBIAS4SF_DP_IBIASF to 262
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0401 0x03401060 returned 0100000001040000
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_PMOS_AP_DP_IRESET to 1.000 uA.
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_PMOS_AP_DP_IRESET to 31250
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x0307a120 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_IBIASP_DP_IDB to 1.993 uA.
+[0m[1m[2024-01-05 10:43:23.765] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_IBIASP_DP_IDB to 54
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x03100360 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_IBIAS3_DP_IBIAS to 199.954 uA.
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_IBIAS3_DP_IBIAS to 1654
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x03306760 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_VOFFSET_AP_DP_VH to 1199.977 mV
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC CE_VOFFSET_AP_DP_VH to 31408
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x0347ab00 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_VRESET to 499.989 mV
+[0m[1m[2024-01-05 10:43:23.766] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Setting DAC AP_VRESET to 13032
+[0m[1m[2024-01-05 10:43:23.767] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0501 0x03532e80 returned 0100000001050000
+[0m[1m[2024-01-05 10:43:23.767] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Chip powered ON.
+[0m[1m[2024-01-05 10:43:23.767] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Waiting 9 seconds for Ia current to stabilize...
+[0m[1m[2024-01-05 10:43:23.767] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000000100000
+[0m[1m[2024-01-05 10:43:23.767] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 0.04 mA
+[0m[1m[2024-01-05 10:43:23.864] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is configured.
+[0m[1m[2024-01-05 10:43:23.864] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is configured.
+[0m[1m[2024-01-05 10:43:23.864] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]Producer.ALPIDE_plane_2 is configured.
+[0m[1m[2024-01-05 10:43:24.768] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000675b0900
+[0m[1m[2024-01-05 10:43:24.769] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.63 mA
+[0m[1m[2024-01-05 10:43:25.770] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000678b0800
+[0m[1m[2024-01-05 10:43:25.770] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.14 mA
+[0m[1m[2024-01-05 10:43:26.772] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000681b0900
+[0m[1m[2024-01-05 10:43:26.772] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.48 mA
+[0m[1m[2024-01-05 10:43:27.773] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000692b0900
+[0m[1m[2024-01-05 10:43:27.774] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.52 mA
+[0m[1m[2024-01-05 10:43:28.775] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000696b0900
+[0m[1m[2024-01-05 10:43:28.775] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.67 mA
+[0m[1m[2024-01-05 10:43:29.777] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000670b0900
+[0m[1m[2024-01-05 10:43:29.777] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.44 mA
+[0m[1m[2024-01-05 10:43:30.778] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000672b0900
+[0m[1m[2024-01-05 10:43:30.779] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.52 mA
+[0m[1m[2024-01-05 10:43:31.780] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000672b0900
+[0m[1m[2024-01-05 10:43:31.780] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Ia = 5.52 mA
+[0m[1m[2024-01-05 10:43:32.782] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000693b0900
+[0m[1m[2024-01-05 10:43:32.782] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1104 returned 0000000009c00000
+[0m[1m[2024-01-05 10:43:32.782] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000691b0900
+[0m[1m[2024-01-05 10:43:32.782] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Currents after setting DACs: Ia = 5.56 mA, Id = 0.27 mA, Ib = 71.27 mA
+[0m[1m[2024-01-05 10:43:32.783] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x00ef 0x00000000 returned 01000000ef000000
+[0m[1m[2024-01-05 10:43:32.783] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0387 0x00000000 returned 0100000087030000
+[0m[1m[2024-01-05 10:43:32.783] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0301 0x00000028 returned 0100000001030000
+[0m[1m[2024-01-05 10:43:32.784] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0302 0x00000064 returned 0100000002030000
+[0m[1m[2024-01-05 10:43:32.784] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0303 0x00000064 returned 0100000003030000
+[0m[1m[2024-01-05 10:43:32.784] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0304 0x00000001 returned 0100000004030000
+[0m[1m[2024-01-05 10:43:32.785] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0305 0x00002710 returned 0100000005030000
+[0m[1m[2024-01-05 10:43:32.785] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0306 0x00000014 returned 0100000006030000
+[0m[1m[2024-01-05 10:43:32.785] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0307 0x00000002 returned 0100000007030000
+[0m[1m[2024-01-05 10:43:32.785] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0308 0x0000ffff returned 0100000008030000
+[0m[1m[2024-01-05 10:43:32.786] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0309 0x00000000 returned 0100000009030000
+[0m[1m[2024-01-05 10:43:32.786] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x030a 0x00000001 returned 010000000a030000
+[0m[1m[2024-01-05 10:43:32.786] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x030b 0x00000000 returned 010000000b030000
+[0m[1m[2024-01-05 10:43:32.787] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x030c 0x00000001 returned 010000000c030000
+[0m[1m[2024-01-05 10:43:32.787] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x030d 0x0000000a returned 010000000d030000
+[0m[1m[2024-01-05 10:43:32.787] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x030e 0x0000000a returned 010000000e030000
+[0m[1m[2024-01-05 10:43:32.788] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x0300 0x00000001 returned 0100000000030000
+[0m[1m[2024-01-05 10:43:32.788] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]Producer.APTS_0 is configured.
+[0m[1m[2024-01-05 10:43:32.810] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing StartRun command for RUN #15104321
+[0m[1m[2024-01-05 10:43:33.911] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:33.911] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:35.011] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:35.011] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:35.011] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:35.011] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:35.011] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37596</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_1</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37582</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_1</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37580</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37608</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_2</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37622</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:35.013] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:35.086] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:35.089] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:35.090] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:36.111] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]RUN #15104321 is to be started...
+[0m[1m[2024-01-05 10:43:36.170] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37624</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>APTS_0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:36.171] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000066eb0800
+[0m[1m[2024-01-05 10:43:36.171] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000068fb0800
+[0m[1m[2024-01-05 10:43:36.184] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1602 returned 0000000016737e10
+[0m[1m[2024-01-05 10:43:36.285] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Write cmd 0x03ac 0x00000001 returned 01000000ac030000
+[0m[1m[2024-01-05 10:43:36.285] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]RUN #15104321 is started.
+[0m[1m[2024-01-05 10:43:46.310] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000655b0900
+[0m[1m[2024-01-05 10:43:46.310] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000698b0800
+[0m[1m[2024-01-05 10:43:56.336] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000691b0900
+[0m[1m[2024-01-05 10:43:56.337] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 000000006a6b0900
+[0m[1m[2024-01-05 10:43:57.370] [0m[31;1m(ERROR)[0m [DataCollector.dc ]DoReceive: <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37608</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_2</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:43:57.371] [0m[33;1m(WARN)[0m [DataCollector.dc ]DataReceiver: Connection execption at listening time
+[0m[1m[2024-01-05 10:44:06.340] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000674b0800
+[0m[1m[2024-01-05 10:44:06.340] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000066cb0800
+[0m[1m[2024-01-05 10:44:16.530] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000066fb0800
+[0m[1m[2024-01-05 10:44:16.530] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000069fb0800
+[0m[1m[2024-01-05 10:44:26.555] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000672b0900
+[0m[1m[2024-01-05 10:44:26.555] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000671b0900
+[0m[1m[2024-01-05 10:44:36.632] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000649b0800
+[0m[1m[2024-01-05 10:44:36.632] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000067db0800
+[0m[1m[2024-01-05 10:44:46.729] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000067eb0800
+[0m[1m[2024-01-05 10:44:46.729] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000641b0900
+[0m[1m[2024-01-05 10:44:55.479] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing StopRun command for RUN #15104321
+[0m[1m[2024-01-05 10:44:55.479] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:55.496] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000066fb0800
+[0m[1m[2024-01-05 10:44:55.496] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000694b0900
+[0m[1m[2024-01-05 10:44:56.597] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 0000000067cb0800
+[0m[1m[2024-01-05 10:44:56.598] [0m[31;1m(DEBUG)[0m [Producer.APTS_0 ]Read cmd 0x1103 returned 00000000693b0900
+[0m[1m[2024-01-05 10:44:56.598] [0m[32;1m(INFO)[0m [Producer.APTS_0 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:44:56.683] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:56.683] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:56.683] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:56.683] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:56.683] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:44:56.698] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37624</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>APTS_0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:44:56.847] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_2 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:44:56.851] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:44:56.852] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:44:56.952] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37582</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_1</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:44:56.952] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37580</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:44:56.952] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37608</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_2</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:44:59.145] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:44:59.245] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37622</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:45:01.227] [0m[32;1m(INFO)[0m [Producer.POWER_1 ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:45:01.327] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:37596</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_1</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2024-01-05 10:45:01.330] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #15104321 is to be stopped...
+[0m[1m[2024-01-05 10:45:01.511] [0m[33;1m(WARN)[0m [DataCollector.dc ]DataReceiver: Data buffer is not empty during the stopping
+[0m[1m[2024-01-05 10:45:01.942] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #15104321 is stopped.
+[0m[1m[2024-01-05 10:45:02.369] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Terminate command

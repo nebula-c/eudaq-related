@@ -1,0 +1,210 @@
+
+*** LogCollector started at 2023-12-28 19:17:44.776 ***
+[0m[1m[2023-12-28 19:17:44.775] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for log
+[0m[1m[2023-12-28 19:17:44.775] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for dc
+[0m[1m[2023-12-28 19:17:44.775] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_0
+[0m[1m[2023-12-28 19:17:44.775] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for ALPIDE_plane_1
+[0m[1m[2023-12-28 19:17:44.779] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Initialise command for POWER_0
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.POWER_0">
+        <path>/dev/hmp4040_2</path>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_1">
+        <plane>1</plane>
+        <serial>DAQ-0009010E08933325</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_0">
+        <plane>0</plane>
+        <serial>DAQ-0009010E08931906</serial>
+        <triggermode>replica</triggermode>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [DataCollector.dc ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:55000</EUDAQ_LOG_ADDR>
+        <Name>lab-2ALPIDE.ini</Name>
+      </Section>
+      <Section title="DataCollector.dc">
+        <dataproducers>ALPIDE_plane_0,ALPIDE_plane_1</dataproducers>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is to be initialised...
+[0m[1m[2023-12-28 19:17:44.834] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is initialised.
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is to be initialised...
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is to be initialised...
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is to be initialised...
+[0m[1m[2023-12-28 19:17:44.818] [0m[32;1m(INFO)[0m [DataCollector.dc ]TCPServer:: Listening on port 43679
+[0m[1m[2023-12-28 19:17:45.019] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is initialised.
+[0m[1m[2023-12-28 19:17:45.040] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is initialised.
+[0m[1m[2023-12-28 19:17:45.042] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is initialised.
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Configure command
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:43679</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-2ALPIDE.conf</Name>
+      </Section>
+      <Section title="Producer.POWER_0">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:43679</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-2ALPIDE.conf</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_1">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>1</EUDAQ_ID>
+        <ITHR>60</ITHR>
+        <STROBE_LENGTH>800</STROBE_LENGTH>
+        <VCASN>106</VCASN>
+        <VCASN2>118</VCASN2>
+        <VCLIP>60</VCLIP>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:43679</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-2ALPIDE.conf</Name>
+      </Section>
+      <Section title="Producer.ALPIDE_plane_0">
+        <EUDAQ_DC>dc</EUDAQ_DC>
+        <EUDAQ_ID>0</EUDAQ_ID>
+        <ITHR>60</ITHR>
+        <STROBE_LENGTH>800</STROBE_LENGTH>
+        <VCASN>106</VCASN>
+        <VCASN2>118</VCASN2>
+        <VCLIP>60</VCLIP>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is to be configured...
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [DataCollector.dc ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.dc>tcp://127.0.0.1:43679</DataCollector.dc>
+        <LogCollector.log>tcp://127.0.0.1:55000</LogCollector.log>
+        <Name>lab-2ALPIDE.conf</Name>
+      </Section>
+      <Section title="DataCollector.dc">
+        <#EUDAQ_DATACOL_SEND_MONITOR_FRACTION>10</#EUDAQ_DATACOL_SEND_MONITOR_FRACTION>
+        <#EUDAQ_FW_PATTERN>/dev/null/run$6R_$12D$X</#EUDAQ_FW_PATTERN>
+        <#EUDAQ_MN>mon</#EUDAQ_MN>
+        <EUDAQ_FW>native</EUDAQ_FW>
+        <EUDAQ_FW_PATTERN>/home/next/ITS3/eudaq/data/20231228/run$6R_$12D$X</EUDAQ_FW_PATTERN>
+      </Section>
+    </Configuration>
+
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is to be configured...
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is to be configured...
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]Producer.POWER_0 is configured.
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is to be configured...
+[0m[1m[2023-12-28 19:17:45.065] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataCollector.dc is configured.
+[0m[1m[2023-12-28 19:17:45.172] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]Producer.ALPIDE_plane_1 is configured.
+[0m[1m[2023-12-28 19:17:45.173] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]Producer.ALPIDE_plane_0 is configured.
+[0m[1m[2023-12-28 19:17:45.191] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing StartRun command for RUN #524191742
+[0m[1m[2023-12-28 19:17:46.292] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #524191742 is to be started...
+[0m[1m[2023-12-28 19:17:46.292] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #524191742 is started.
+[0m[1m[2023-12-28 19:17:47.392] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #524191742 is to be started...
+[0m[1m[2023-12-28 19:17:47.392] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #524191742 is to be started...
+[0m[1m[2023-12-28 19:17:47.394] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44406</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:17:47.394] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44420</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_1</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:17:47.395] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #524191742 is started.
+[0m[1m[2023-12-28 19:17:47.473] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #524191742 is started.
+[0m[1m[2023-12-28 19:17:48.492] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #524191742 is to be started...
+[0m[1m[2023-12-28 19:17:48.517] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44426</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:17:48.589] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #524191742 is started.
+[0m[1m[2023-12-28 19:20:14.757] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing StopRun command for RUN #524191742
+[0m[1m[2023-12-28 19:20:14.757] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #524191742 is to be stopped...
+[0m[1m[2023-12-28 19:20:14.975] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_0 ]RUN #524191742 is stopped.
+[0m[1m[2023-12-28 19:20:15.059] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #524191742 is to be stopped...
+[0m[1m[2023-12-28 19:20:15.059] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #524191742 is to be stopped...
+[0m[1m[2023-12-28 19:20:15.075] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44426</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:20:15.277] [0m[32;1m(INFO)[0m [Producer.ALPIDE_plane_1 ]RUN #524191742 is stopped.
+[0m[1m[2023-12-28 19:20:15.378] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44420</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>ALPIDE_plane_1</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:20:18.215] [0m[32;1m(INFO)[0m [Producer.POWER_0 ]RUN #524191742 is stopped.
+[0m[1m[2023-12-28 19:20:18.265] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #524191742 is to be stopped...
+[0m[1m[2023-12-28 19:20:18.316] [0m[32;1m(INFO)[0m [DataCollector.dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:44406</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>POWER_0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2023-12-28 19:20:18.818] [0m[32;1m(INFO)[0m [DataCollector.dc ]RUN #524191742 is stopped.
+[0m[1m[2023-12-28 19:20:19.737] [0m[32;1m(INFO)[0m [RunControl.RC-TUI ]Processing Terminate command
