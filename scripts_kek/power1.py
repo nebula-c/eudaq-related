@@ -11,7 +11,7 @@ def readjson():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="APTS readout",formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--json','-j',help='Json file to initialize',default="info_power.json")
+    parser.add_argument('--json','-j',help='Json file to initialize',default="../json_kek/powers.json")
     parser.add_argument('--channel','-c',type=int,choices=[1,2,3,4])
     parser.add_argument('--set-current' ,'-i',type=float,help='Set current in A (not mA)')
     parser.add_argument('--set-voltage' ,'-v',type=float,help='Set voltage in V')

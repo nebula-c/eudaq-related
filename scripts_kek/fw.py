@@ -19,8 +19,8 @@ def read_fwjson():
 if __name__ == "__main__":
     mypath=os.path.abspath(os.getcwd())+'/'
     parser = argparse.ArgumentParser(description="APTS readout",formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--daqjson','-d',help='DAQ json file to initialize',default=mypath+"info_daq.json")
-    parser.add_argument('--fwjson','-f',help='FW json file to initialize',default=mypath+"info_fw.json")
+    parser.add_argument('--daqjson','-d',help='DAQ json file to initialize',default=mypath+"../json_kek/daq_serial.json")
+    parser.add_argument('--fwjson','-f',help='FW json file to initialize',default=mypath+"../json_kek/fw_path.json")
 
     args=parser.parse_args()
 
