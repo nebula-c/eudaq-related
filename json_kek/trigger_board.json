@@ -1,0 +1,11 @@
+{
+	"SW_path":"/home/hipex/ITS3/trigger/software/",
+	"Threshold":
+	{
+		"ch0": "0",
+		"ch1": "0",
+		"ch2": "0",
+		"ch3": "0"
+	},
+	"Logic" : "trg0 & !bsy"
+}
