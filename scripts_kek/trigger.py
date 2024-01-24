@@ -37,7 +37,6 @@ if __name__ == "__main__":
 
     ### Set Logic
     logic_cmd = "sudo " + sw_path + "./settrg.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 --trg='{}'".format(logic)
-    print(logic_cmd)
     os.system(logic_cmd)
 
 
