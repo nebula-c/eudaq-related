@@ -24,5 +24,4 @@ if __name__ == "__main__":
     nevents = jsonconfig['Events']
 
     mycmd = sw_path + "./apts_readout.py {} {} -ty int -tt {} --serial {} -n {}".format(proximity, apts,trigger_threshold,daq_serial,nevents)
-    print(mycmd)
     os.system(mycmd)
