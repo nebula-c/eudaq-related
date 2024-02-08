@@ -1,0 +1,6 @@
+{
+    "SW_path":"/home/hipex/ITS3/trigger/software/",
+    "SW_file":"readscope2.py",
+    "Datafile":"scope.vcd",
+    "Port":"/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0"
+}

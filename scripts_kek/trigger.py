@@ -18,25 +18,26 @@ if __name__ == "__main__":
     jsonconfig = readjson()
     
     thrs_list = jsonconfig['Threshold']
+    port = jsonconfig['Port']
     sw_path = jsonconfig['SW_path']
     logic = jsonconfig['Logic']
 
 
     ### Threshold setting
-    ch0_cmd = "sudo " + sw_path + "mcp4728.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 -a 96 -c1 -v {}".format(thrs_list['ch0'])
+    ch0_cmd = "sudo " + sw_path + "mcp4728.py -p {} -a 96 -c1 -v {}".format(port,thrs_list['ch0'])
     os.system(ch0_cmd)
 
-    ch1_cmd = "sudo " + sw_path + "mcp4728.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 -a 96 -c3 -v {}".format(thrs_list['ch1'])
+    ch1_cmd = "sudo " + sw_path + "mcp4728.py -p {} -a 96 -c3 -v {}".format(port,thrs_list['ch1'])
     os.system(ch1_cmd)
 
-    ch2_cmd = "sudo " + sw_path + "mcp4728.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 -a 97 -c1 -v {}".format(thrs_list['ch2'])
+    ch2_cmd = "sudo " + sw_path + "mcp4728.py -p {} -a 97 -c1 -v {}".format(port,thrs_list['ch2'])
     os.system(ch2_cmd)
 
-    ch3_cmd = "sudo " + sw_path + "mcp4728.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 -a 97 -c3 -v {}".format(thrs_list['ch3'])
+    ch3_cmd = "sudo " + sw_path + "mcp4728.py -p {} -a 97 -c3 -v {}".format(port,thrs_list['ch3'])
     os.system(ch3_cmd)
 
     ### Set Logic
-    logic_cmd = "sudo " + sw_path + "./settrg.py -p /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0 --trg='{}'".format(logic)
+    logic_cmd = "sudo " + sw_path + "./settrg.py -p {} --trg='{}'".format(port,logic)
     os.system(logic_cmd)
 
 

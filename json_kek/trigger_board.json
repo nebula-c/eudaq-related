@@ -1,11 +1,12 @@
 {
 	"SW_path":"/home/hipex/ITS3/trigger/software/",
+	"Port":"/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0",
 	"Threshold":
 	{
-		"ch0": "0",
-		"ch1": "0",
+		"ch0": "0.3",
+		"ch1": "0.3",
 		"ch2": "0",
 		"ch3": "0"
 	},
-	"Logic" : "trg0 & !bsy"
+	"Logic" : "trg0&!bsy"
 }
