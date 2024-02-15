@@ -1,8 +1,8 @@
 {
     "SW_path": "/home/hipex/ITS3/apts-dpts-ce65-daq-software/apts/",
-    "Proximity": "APTS-025",
-    "APTS": "AF15P_W22B32",
-    "Trigger_threshold": "150",
-    "DAQ_serial": "DAQ-0009010E08932125",
+    "Proximity": "APTS-017",
+    "APTS": "AF15P_W22B75",
+    "Trigger_threshold": "100",
+    "DAQ_serial": "DAQ-0009010E08932F25",
     "Events": 1000000
 }

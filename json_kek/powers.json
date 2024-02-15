@@ -1,4 +1,5 @@
 {
-	"power1": "/dev/hmp4040_3",
-	"power2": "/dev/hmp4040"
+	"power1": "/dev/hmp4040",
+	"power2": "/dev/hmp4040_3",
+    "power3": "/dev/hmp2030"
 }
