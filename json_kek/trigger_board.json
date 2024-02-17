@@ -8,5 +8,5 @@
 		"ch2": "0",
 		"ch3": "0.3"
 	},
-	"Logic" : "trg0 & trg1 & !bsy"
+	"Logic" : "trg3"
 }

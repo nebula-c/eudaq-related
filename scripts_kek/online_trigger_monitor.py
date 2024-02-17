@@ -122,6 +122,8 @@ if __name__ == "__main__":
         datalist = list()
         datalist = [temptime,bsy,trg_c_ch0,trg_c_ch1,trg_c_ch2,trg_c_ch3,trg_s_ch0,trg_s_ch1,trg_s_ch2,trg_s_ch3]
         monitorlist.append(datalist)
+        if len(monitorlist) > 20:
+            del monitorlist[0]
         print("Time \t\t\t\t BSY input \t trg_c_ch0 \t trg_c_ch1 \t trg_c_ch2 \t trg_c_ch3 \t trg_s_ch0 \t trg_s_ch1 \t trg_s_ch2 \t trg_s_ch3")
         for  datalist in monitorlist:
             print("{}\t {:^7} \t {:^7} \t {:^7} \t {:^7} \t {:^7} \t {:^7} \t {:^7} \t {:^7} \t {:^7}".format(datalist[0],datalist[1],datalist[2],datalist[3],datalist[4],datalist[5],datalist[6],datalist[7],datalist[8],datalist[9]))
