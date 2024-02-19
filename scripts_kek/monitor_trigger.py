@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     jsonconfig = readjson()
     sw_path = jsonconfig['SW_path']
-    monitor = jsonconfig['Log']
+    monitor = jsonconfig['Monitor']
     monitor_ch = jsonconfig['Monitor_ch']
     nevents = jsonconfig['Nevents']
     port = jsonconfig['Port']
