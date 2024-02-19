@@ -8,5 +8,8 @@
 		"ch2": "0",
 		"ch3": "0.3"
 	},
-	"Logic" : "trg3"
+	"Logic" : "trg3",
+    "Monitor": "feedback_monitor.py",
+    "Log": "readtrgincnts.py",
+    "Log_path" : "/home/hipex/ITS3/trigger/templog"
 }
