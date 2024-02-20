@@ -65,3 +65,5 @@ if __name__ == "__main__":
         mlr1.wait()
 
     print("Done")
+    print("=====================================================")
+    os.system("alpide-daq-program --list")

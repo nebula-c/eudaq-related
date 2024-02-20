@@ -23,7 +23,7 @@ if __name__ == "__main__":
     monitor_ch = jsonconfig['Monitor_ch']
     nevents = jsonconfig['Nevents']
     port = jsonconfig['Port']
-    log_sw = jsonconfig['Log']
+#    log_sw = jsonconfig['Log']
     log_path = jsonconfig['Log_path']
     
     now = datetime.datetime.now()
