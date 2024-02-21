@@ -31,6 +31,7 @@ if __name__ == "__main__":
     fx3_alpide = fwjson['fx3_alpide']
     fpga_mlr1 = fwjson['fpga_mlr1']
     fx3_mlr1 = fwjson['fx3_mlr1']
+    fpga_ce65 = fwjson['fpga_ce65']
 
     ref_list=[]
     if 'ALPIDE_DAQ' in jsonconfig:
@@ -43,6 +44,11 @@ if __name__ == "__main__":
         for val in jsonconfig['MLR1_DAQ']:
             mlr1_list.append(val)
     print('Number of DUT or TRG DAQ boards: {}'.format(len(mlr1_list)))
+
+    ce65_list=[]
+    if 'CE65_DAQ' in jsonconfig:
+        for val in jsonconfig['CE65_DAQ']:
+            ce65_list.append(val)
     print('--------------------------------------------')
 
     alpide_cmd ='alpide-daq-program'
@@ -59,11 +65,17 @@ if __name__ == "__main__":
         mycmd = 'mlr1-daq-program --fpga {} --fx3 {} --serial {}'.format(fpga_mlr1,fx3_mlr1,mydaq)
         mlr1_process_list.append(subprocess.Popen([mycmd],shell=True,text=True))
 
+    ce65_process_list=[]
+    for ce65 in ce65_list:
+        mydaq = jsonconfig['CE65_DAQ'][ce65]
+        mycmd = 'mlr1-daq-program --fpga {} --fx3 {} --serial {}'.format(fpga_ce65,fx3_mlr1,mydaq)
+        ce65_process_list.append(subprocess.Popen([mycmd],shell=True,test=True))
+
     for ref in ref_process_list:
         ref.wait()
     for mlr1 in mlr1_process_list:
         mlr1.wait()
-
-    print("Done")
+    print("=====================================================")
+    print(" FW uploading completed ")
     print("=====================================================")
     os.system("alpide-daq-program --list")
