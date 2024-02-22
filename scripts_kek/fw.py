@@ -66,15 +66,17 @@ if __name__ == "__main__":
         mlr1_process_list.append(subprocess.Popen([mycmd],shell=True,text=True))
 
     ce65_process_list=[]
-    for ce65 in ce65_list:
-        mydaq = jsonconfig['CE65_DAQ'][ce65]
-        mycmd = 'mlr1-daq-program --fpga {} --fx3 {} --serial {}'.format(fpga_ce65,fx3_mlr1,mydaq)
-        ce65_process_list.append(subprocess.Popen([mycmd],shell=True,test=True))
+#for ce65 in ce65_list:
+#        mydaq = jsonconfig['CE65_DAQ'][ce65]
+#        mycmd = 'mlr1-daq-program --fpga {} --fx3 {} --serial {}'.format(fpga_ce65,fx3_mlr1,mydaq)
+#        ce65_process_list.append(subprocess.Popen([mycmd],shell=True,test=True))
 
     for ref in ref_process_list:
         ref.wait()
     for mlr1 in mlr1_process_list:
         mlr1.wait()
+#    for ce65 in ce65_process_list:
+#        ce65.wait()
     print("=====================================================")
     print(" FW uploading completed ")
     print("=====================================================")
