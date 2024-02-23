@@ -69,14 +69,17 @@ if __name__ == "__main__":
     for bent in bent_list:
         mydaq = jsonconfig['BENT_DAQ'][bent]
         mycmd = 'alpide-daq-program --fpga {} --fx3 {} --serial {}'.format(fpga_alpide,fx3_alpide,mydaq)
-        bent_process_list.append(subprocess.Popen([mycmd],shell=True,test=True))
+        print(mycmd)
+        bent_process_list.append(subprocess.Popen([mycmd],shell=True,text=True))
+
 
     for ref in ref_process_list:
         ref.wait()
     for mlr1 in mlr1_process_list:
         mlr1.wait()
-    for bent in ce65_process_list:
+    for bent in bent_process_list:
         bent.wait()
+
     print("=====================================================")
     print(" FW uploading completed ")
     print("=====================================================")
