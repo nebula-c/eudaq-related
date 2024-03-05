@@ -1,0 +1,60 @@
+
+///// 주된 에러와 디버깅 방법 /////
+make sure that you have opened correct port and devices are powered on.
+이러한 에러가 뜨면 
+1. 파워를 확인한다!!
+2. 스크립트에서 ttyUSB[숫자]를 바꾸어서 올바른 포트를 찾는다.
+
+
+
+Traceback (most recent call last):
+  File "/home/hipex/ITS3/zaber-script/home.py", line 35, in <module>
+    main()
+  File "/home/hipex/ITS3/zaber-script/home.py", line 32, in main
+    move_to_home(stage_number)
+  File "/home/hipex/ITS3/zaber-script/home.py", line 7, in move_to_home
+    devices = conn.detect_devices()
+  File "/home/hipex/.local/lib/python3.10/site-packages/zaber_motion/binary/connection.py", line 416, in detect_devices
+    call("binary/device/detect", request, response)
+  File "/home/hipex/.local/lib/python3.10/site-packages/zaber_motion/call.py", line 46, in call
+    process_response(response_buffers, response_data)
+  File "/home/hipex/.local/lib/python3.10/site-packages/zaber_motion/call.py", line 123, in process_response
+    raise convert_exception(response_proto.error_type, response_proto.error_message)
+zaber_motion.exceptions.no_device_found_exception.NoDeviceFoundException: NoDeviceFoundException: Cannot find any device on the port. Make sure that you have opened correct port and devices are powered on.
+
+
+
+    ///// 스크립트 실행하기 /////
+
+---------------------------------홈으로 이동----------------------------------------
+python3 home.py [숫자1]
+
+[숫자1]은 어떤 디바이스를 홈으로 움직일지 적어준다. 0은 모든 디바이스, 1은 첫번째 디바이스, 2는 두번째 디바이스
+
+
+
+--------------------------------절대좌표로 이동---------------------------------------
+python3 move_abs.py [숫자1] [숫자2]
+
+[숫자1]에는 어느 디바이스를 움직일지 0은 모든 디바이스, 1은 첫번째 디바이스, 2는 두번째 디바이스
+
+[숫자2]에는 디바이스를 어느 위치로 이동시킬지 결정. 
+만약 에러가 뜬다면 maximum으로 정해놓은 값보다 큰 값을 입력한 것. alignment 담당자에게 연락할 것.
+
+
+
+--------------------------------위치 확인하기---------------------------------------
+python3 get_pos.py [숫자1]
+
+[숫자1]에는 어느 디바이스에 대한 위치를 출력할지 적어준다. 0은 모든 디바이스, 1은 첫번째 디바이스, 2는 두번째 디바이스
+
+
+
+----------------------------------긴급 멈춤------------------------------------------
+python3 stop.py
+
+ctrl + c 또는 ctrl + z 를 통해 빠져나온 후 스크립트를 돌린다.
+-------------------------------------------------------------------------------------
+
+
+이외의 스크립트는 임의로 실행하지 말 것
