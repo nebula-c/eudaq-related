@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 from zaber_motion.binary import Connection
 from zaber_motion.binary import binary_settings

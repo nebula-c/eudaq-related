@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 from multiprocessing import Process
 from zaber_motion.binary import Connection

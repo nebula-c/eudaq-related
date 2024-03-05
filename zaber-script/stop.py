@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import time
 from zaber_motion.binary import Connection, Device
 from zaber_motion import Units, Library, LogOutputMode

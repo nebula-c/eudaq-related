@@ -11,7 +11,7 @@
     "DUT":
     	{
 		"Proximity": "APTS-017",
-		"APTS": "AF15P_W22B76",
+		"APTS": "AF15P_W22B75",
 		"Trigger_threshold": "100",
 		"DAQ_serial": "DAQ-0009010E08931D07",
 		"Events": 1000000
