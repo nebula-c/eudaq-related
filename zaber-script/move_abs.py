@@ -6,7 +6,7 @@ from zaber_motion.binary import Connection, Device
 from zaber_motion import Units, Library, LogOutputMode
 
 def move_absolute(stage_number, microsteps):
-    with Connection.open_serial_port("/dev/ttyUSB4") as conn:
+    with Connection.open_serial_port("/dev/ttyUSB2") as conn:
         devices = conn.detect_devices()
         if stage_number == 0:
             # 모든 무빙 스테이지에 대해 절대 위치로 이동
