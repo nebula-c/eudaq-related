@@ -37,8 +37,9 @@ if __name__ == "__main__":
     period = jsonconfig['period']
     newfile = jsonconfig['newfilename']
     newfiledir = jsonconfig['newfilepath']
-    filedir = jsonconfig['filepath']
-
+#    filedir = jsonconfig['filepath']
+    filedir = "/home/hipex/data/" + datetime.datetime.now().strftime("%Y%m%d")
+#    print(filedir)
 
     start = datetime.datetime.now().replace(microsecond=0)
 

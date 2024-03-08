@@ -22,7 +22,6 @@ if __name__ == "__main__":
     sw_path = jsonconfig['SW_path']
     logic = jsonconfig['Logic']
 
-
     ### Threshold setting
     ch0_cmd = "sudo " + sw_path + "mcp4728.py -p {} -a 96 -c1 -v {}".format(port,thrs_list['ch0'])
     os.system(ch0_cmd)
