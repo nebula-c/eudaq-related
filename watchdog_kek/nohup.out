@@ -58,3 +58,7 @@ warning: purged 1 bytes
 warning: purged 514 bytes
 warning: purged 1 bytes
 warning: purged 4 bytes
+  File "/home/hipex/ITS3/eudaq-related/watchdog_kek/test_watchdog.py", line 44
+    parser.add_argument("--interval", "-i", default=1/, type=float, help="Monitoring interval in min (default 20).")
+                                                      ^
+SyntaxError: invalid syntax
