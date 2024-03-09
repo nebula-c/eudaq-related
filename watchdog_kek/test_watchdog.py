@@ -75,7 +75,7 @@ if __name__ == "__main__":
                 EUDAQ : {}
             =================================================
 "Beamrate" in here is assumed valued from trigger board and based on scintillator.
-"EUDAQ" status means if EUDAQ operation windows is opening. It couldn't mean EUDAQ is fine                 
+"EUDAQ" status means if EUDAQ operation window is opening. It couldn't mean EUDAQ is fine                 
                 """.format(now,beamrate/interval,EUDAQ_status)
                 
                 myres = send_to_mm(msg,hook)
