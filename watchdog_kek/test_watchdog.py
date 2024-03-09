@@ -70,7 +70,7 @@ if __name__ == "__main__":
                 msg = """
             =================================================
                 System time : {}
-                This is test text from OSM(DAQ PC)
+                Message from OSM(DAQ PC)
                 Beamrate : {:.2f} Hz
                 EUDAQ : {}
             =================================================
