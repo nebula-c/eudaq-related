@@ -1,5 +1,5 @@
 {
-    "period": 3,
+    "period": 10,
     "filepath": "/home/hipex/data/20240307/",
     "newfilepath": "/home/hipex/data/SCP",
     "newfilename": "temp.raw"
