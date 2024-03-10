@@ -45,7 +45,7 @@ def isEUDAQOn():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Watch the status of datataking and inform on Mattermost.")
     # parser.add_arg    ument("channel", help="Mattermost channel to write to.")
-    parser.add_argument("--interval", "-i", default=1, type=float, help="Monitoring interval in min (default 20).")
+    parser.add_argument("--interval", "-i", default=20, type=float, help="Monitoring interval in min (default 20).")
     parser.add_argument("--triggerdt", default=5, type=float, help="dt for checking trigger board in sec(default 5).")
 #    parser.add_argument("-t", "--test", action="store_true", help="Test connection to Mattermost and exit.")
     parser.add_argument("--hook", default="https://mattermost.web.cern.ch/hooks/383ozy9s7b8e583h4t1dm5jrca", help="Mattermost webhook URL")
