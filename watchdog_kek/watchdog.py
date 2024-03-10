@@ -50,7 +50,7 @@ if __name__ == "__main__":
 #    parser.add_argument("-t", "--test", action="store_true", help="Test connection to Mattermost and exit.")
     parser.add_argument("--hook", default="https://mattermost.web.cern.ch/hooks/383ozy9s7b8e583h4t1dm5jrca", help="Mattermost webhook URL")
     parser.add_argument("--trig", action="store_true", help="Check trigger status")
-    parser.add_argument("--logic", "-l", default="RXXX", help="Set trigger board logic to monitoring")
+    parser.add_argument("--logic", "-l", default="XXRX", help="Set trigger board logic to monitoring")
 #    parser.add_argument("--scopeOn", action="store_true", help="Send scope ready for trigger when no trigger 10 min")
     args = parser.parse_args()
 
@@ -101,9 +101,8 @@ if __name__ == "__main__":
                 EUDAQ : {}
                 Shifter : {}
             =================================================
-It is developing now.... So it is just test message and beamrate is pulse of function generator.
 "Beamrate" in here is assumed valued from trigger board and based on scintillator.
-"EUDAQ" status means if EUDAQ operation window is opening. It couldn't mean EUDAQ is fine                 
+"EUDAQ" status means if EUDAQ operation window is opening. It couldn't mean EUDAQ is fine.                
                     """.format(now,beamrate/triggerdt,EUDAQ_status,shifter)
 
                     myres = send_to_mm(msg,hook)

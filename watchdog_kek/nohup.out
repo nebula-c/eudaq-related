@@ -18,3 +18,15 @@ file or directory:
 /dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0: [Errno 2] No such
 file or directory: 
 '/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0'
+[Errno 2] could not open port 
+/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0: [Errno 2] No such
+file or directory: 
+'/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0'
+[Errno 2] could not open port 
+/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0: [Errno 2] No such
+file or directory: 
+'/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0'
+[Errno 2] could not open port 
+/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0: [Errno 2] No such
+file or directory: 
+'/dev/serial/by-id/usb-CERN_ITS3_Trigger_Board_0011-if01-port0'

@@ -3,13 +3,13 @@
 	{
 		"Night": "None",
 		"Morning": "None",
-		"Afternoon": "None"
+		"Afternoon": "test_10_afternoon"
 	},
 	"11": 
 	{
-		"Night": "None",
-		"Morning": "None",
-		"Afternoon": "None"
+		"Night": "test_10_night",
+		"Morning": "test_11_morning",
+		"Afternoon": "test_11_afternoon"
 	},
 	"12": 
 	{
