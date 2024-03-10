@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup python3 test_watchdog.py &
+nohup python3 watchdog.py &

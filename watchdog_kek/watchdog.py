@@ -25,7 +25,11 @@ def send_to_mm(msg, hook_url):
     return r.text
 
 def isBeamTrigger(triggerdt,mycondition):
-    numTrig = getScintTrig(dt=triggerdt,condition_input=condition(mycondition))
+    try:
+        numTrig = getScintTrig(dt=triggerdt,condition_input=condition(mycondition))
+    except Exception as e:
+        print(e)
+        numTrig = 0
     return numTrig
     # print(f"numTrig: {numTrig}")
     # if numTrig > 3000:
@@ -41,7 +45,7 @@ def isEUDAQOn():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Watch the status of datataking and inform on Mattermost.")
     # parser.add_arg    ument("channel", help="Mattermost channel to write to.")
-    parser.add_argument("--interval", "-i", default=20, type=float, help="Monitoring interval in min (default 20).")
+    parser.add_argument("--interval", "-i", default=1, type=float, help="Monitoring interval in min (default 20).")
     parser.add_argument("--triggerdt", default=5, type=float, help="dt for checking trigger board in sec(default 5).")
 #    parser.add_argument("-t", "--test", action="store_true", help="Test connection to Mattermost and exit.")
     parser.add_argument("--hook", default="https://mattermost.web.cern.ch/hooks/383ozy9s7b8e583h4t1dm5jrca", help="Mattermost webhook URL")
@@ -50,9 +54,8 @@ if __name__ == "__main__":
 #    parser.add_argument("--scopeOn", action="store_true", help="Send scope ready for trigger when no trigger 10 min")
     args = parser.parse_args()
 
-    # with open(args.json,'r',encoding='utf-8') as file:
-    #     json_shift = json.load("shifter.json")
-
+    with open("shifter.json",'r',encoding='utf-8') as file:
+        json_shift = json.load(file)
 
     interval = args.interval * 60
     triggerdt = args.triggerdt
@@ -60,6 +63,7 @@ if __name__ == "__main__":
     mylogic = args.logic
     start = datetime.now().replace(microsecond=0)
     isFirst = True
+    
 
     while (True):
         with open("log_watchdog.log","a") as file: 
@@ -67,18 +71,27 @@ if __name__ == "__main__":
                 now = datetime.now().replace(microsecond=0)
                 dt = now-start
                 dt = int(dt.total_seconds())
-
+                
                 if dt % interval == 0 or isFirst == True:
                     isFirst = False
                     beamrate = isBeamTrigger(triggerdt,mylogic)
                     
-                    # print(beamrate)
                     if isEUDAQOn() == True:
                         EUDAQ_status = "ON"
                         
                     else:
                         EUDAQ_status = "OFF"
-z
+
+                    nowhour = now.hour
+                    if 0 <= nowhour < 8:
+                        shifter = json_shift[str(now.day)]["Night"]
+                    elif 8 <= nowhour < 16:
+                        shifter = json_shift[str(now.day)]["Morning"]
+                    elif 16 <= nowhour < 24:
+                        shifter = json_shift[str(now.day)]["Afternoon"]
+                    else :
+                        shifter = "No Shifter"
+                    
                     msg = """
             =================================================
                         !!! Just test message !!!
@@ -86,13 +99,12 @@ z
                 Message from OSM(DAQ PC)
                 Beamrate : {:.2f} Hz
                 EUDAQ : {}
+                Shifter : {}
             =================================================
 It is developing now.... So it is just test message and beamrate is pulse of function generator.
 "Beamrate" in here is assumed valued from trigger board and based on scintillator.
 "EUDAQ" status means if EUDAQ operation window is opening. It couldn't mean EUDAQ is fine                 
-                    """.format(now,beamrate/triggerdt,EUDAQ_status)
-                    
-
+                    """.format(now,beamrate/triggerdt,EUDAQ_status,shifter)
 
                     myres = send_to_mm(msg,hook)
 

@@ -1,0 +1,54 @@
+{
+	"10": 
+	{
+		"Night": "None",
+		"Morning": "None",
+		"Afternoon": "None"
+	},
+	"11": 
+	{
+		"Night": "None",
+		"Morning": "None",
+		"Afternoon": "None"
+	},
+	"12": 
+	{
+		"Night": "Ryotaro & Seunghwan",
+		"Morning": "Jonghan & Jiyoung",
+		"Afternoon": "Shingo & Hanseo"
+	},
+	"13": 
+	{
+		"Night": "Ryotaro & Reita",
+		"Morning": "None",
+		"Afternoon": "None"
+	},
+	"14": 
+	{
+		"Night": "Reita & Yoonha",
+		"Morning": "None",
+		"Afternoon": "None"
+	},
+	"15": 
+	{
+		"Night": "Hikari & Kyungrim",
+		"Morning": "Taku & Seunghwan",
+		"Afternoon": "Motoi & Jiyoung"
+	},
+	"16": 
+	{
+		"Night": "Hikari & Hangil",
+		"Morning": "Jonghan & Sungwoon",
+		"Afternoon": "Taku & Yoonha"
+	},
+	"17": 
+	{
+		"Night": "Towa & Kyungrim",
+		"Morning": "Hanseo & Hangil",
+		"Afternoon": "Daito & Sungwoon"
+	},
+	"18":
+	{
+		"Night": "Towa & Jiyoung"	
+	}
+}
