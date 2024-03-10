@@ -94,9 +94,8 @@ if __name__ == "__main__":
                     
                     msg = """
             =================================================
-                        !!! Just test message !!!
+                    --- Status report from DAQ PC ---
                 System time : {}
-                Message from OSM(DAQ PC)
                 Beamrate : {:.2f} Hz
                 EUDAQ : {}
                 Shifter : {}
