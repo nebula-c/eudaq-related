@@ -3,8 +3,8 @@
     "TRG":
     	{
 		"Proximity": "APTS-025",
-		"APTS": "AF15P_W22B32",
-		"Trigger_threshold": "100",
+		"APTS": "AF15P_W22B77",
+		"Trigger_threshold": "130", 
 		"DAQ_serial": "DAQ-0009010E08932125",
 		"Events": 1000000
     	},
@@ -12,7 +12,7 @@
     	{
 		"Proximity": "APTS-017",
 		"APTS": "AF15P_W22B75",
-		"Trigger_threshold": "100",
+		"Trigger_threshold": "115",
 		"DAQ_serial": "DAQ-0009010E08931D07",
 		"Events": 1000000
     	}

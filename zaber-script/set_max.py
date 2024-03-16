@@ -5,7 +5,7 @@ from zaber_motion.binary import Connection
 from zaber_motion.binary import binary_settings
 
 def set_max_position(stage_number, max_position):
-    with Connection.open_serial_port("/dev/ttyUSB2") as conn:
+    with Connection.open_serial_port("/dev/ttyUSB4") as conn:
         devices = conn.detect_devices()
         if stage_number == 0:
             # 모든 무빙 스테이지에 대해 maximum position 설정
